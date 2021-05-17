@@ -5,6 +5,12 @@
 The Adapter acts as a wrapper between two objects. It catches calls for one object and transforms them to format and interface recognizable by the second object.
 
 
+### Example:
+As an example I used trivial case: power sockets (EU and US types) and 
+devices (EU and US plugs). All of these plugs have different connections: 
+EU devices cannot use US plugs without adapter.
+
+
 ### Pattern usage
 
 ```typescript
