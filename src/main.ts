@@ -1,10 +1,7 @@
-/* eslint-disable no-console */
+/* eslint-disable no-console,max-classes-per-file */
 
-import { ApplicationConfig } from './Singleton/ApplicationConfig';
 
 console.log('\n\n======================= \n\n');
-const settings1 = ApplicationConfig.getInstance();
-const settings2 = ApplicationConfig.getInstance();
 
-console.log(settings1.version === settings2.version);
+
 console.log('\n\n======================= \n\n');
