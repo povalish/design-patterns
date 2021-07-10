@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "clear": "rm -rf ./build",
     "ts:watch": "tsc --watch",
     "js:watch": "nodemon ./build/main.js"
   },
