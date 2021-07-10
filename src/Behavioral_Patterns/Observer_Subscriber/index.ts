@@ -12,37 +12,37 @@ export function main() {
 
   adminLogger.log({
     type: 'view',
-    categoryId: 0
+    categoryId: 0,
   });
   adminLogger.log({
     type: 'view',
-    categoryId: 1
+    categoryId: 1,
   });
   adminLogger.log({
     type: 'redirect',
-    page: 'dashboard'
+    page: 'dashboard',
   });
   adminLogger.log({
     type: 'view',
-    categoryId: 0
+    categoryId: 0,
   });
   adminLogger.log({
     type: 'redirect',
-    page: 'settings'
+    page: 'settings',
   });
   adminLogger.log({
     type: 'redirect',
-    page: 'main page'
+    page: 'main page',
   });
 
   unsubscribe();
 
   adminLogger.log({
     type: 'redirect',
-    page: 'settings'
+    page: 'settings',
   });
   adminLogger.log({
     type: 'redirect',
-    page: 'main page'
+    page: 'main page',
   });
 }
