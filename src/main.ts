@@ -1,5 +1,5 @@
 /* eslint-disable no-console,max-classes-per-file,no-restricted-syntax */
-import { main } from './Behavioral_Patterns/Visitor';
+import { main } from './Behavioral_Patterns/Strategy';
 
 console.log('\n\n======================= \n\n');
 
