@@ -1,20 +1,18 @@
 # Design Patterns
 
-Hello, World!
+Repository was created while I was exploring (or learning) Design Pattern.
 
-This project created for self-learning and explorations about 
-different patterns (design, programming, architectural).
+This repository contains three main folders as reference for three main pattern categories:
 
-Also, can be useful as reference doc.
+- Creational Patterns
+- Structural Patterns
+- Behavioral Patterns
 
+I try to code examples as closed as I can to frontend developer's tasks. All patterns were invented for OOP-like
+languages, and some patterns have different 'look' on JavaScript.
 
-#### Useful links:
-- [example of appearance](http://loredanacirstea.github.io/es6-design-patterns/#flyweight)
+## Content
 
+- **Creational Patterns**
+    - [Singleton](./src/Creational_Patterns/Singleton/README.md)
 
-
-## How to run
-```shell
-$ yarn ts:watch  # in one window
-$ yarn js:watch  # in second window
-```

@@ -1,5 +1,5 @@
 /* eslint-disable no-console,max-classes-per-file,no-restricted-syntax */
-import { main } from './Behavioral_Patterns/Strategy';
+import { main } from './Creational_Patterns/Singleton';
 
 console.log('\n\n======================= \n\n');
 
